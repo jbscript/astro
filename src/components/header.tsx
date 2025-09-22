@@ -44,7 +44,7 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-orange-500" />
             <span className="text-orange-500">Talk to our Astrogers</span>
-            <span>- support@astrologerpoduval.com</span>
+            <span>- support@astrochithrabhanupoduval.com</span>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@ export default function Header() {
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-orange-500" />
                 <span className="text-orange-500">Email:</span>
-                <span>support@astrologerpoduval.com</span>
+                <span>support@astrochithrabhanupoduval.com</span>
               </div>
             </div>
           </div>

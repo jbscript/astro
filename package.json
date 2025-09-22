@@ -1,9 +1,9 @@
 {
-  "name": "astrologer",
+  "name": "astro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jbscript.github.io/astrologer",
+  "homepage": "https://jbscript.github.io/astro",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

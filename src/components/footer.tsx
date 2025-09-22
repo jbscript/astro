@@ -162,7 +162,7 @@ export default function Footer() {
                 <div>
                   <p className="text-gray-300">Email Us</p>
                   <p className="text-white font-medium">
-                    support@astrologerpoduval.com
+                    support@astrochithrabhanupoduval.com
                   </p>
                 </div>
               </div>
