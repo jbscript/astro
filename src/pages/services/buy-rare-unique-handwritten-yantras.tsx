@@ -1,0 +1,88 @@
+import ServiceDetail from "@/components/service-details";
+import { PenTool } from "lucide-react";
+
+const serviceData = {
+  id: "handwritten-vedic-yantras",
+  title: "Handwritten Vedic Yantras",
+  description:
+    "Shri Chithrabhanu K Poduval creates unique traditional handwritten Vedic Yantras that are renowned globally for protection, prosperity, and spiritual purposes. With over 100 self-discovered Yantras and the highest number of Yantra preparations worldwide, these sacred geometric designs offer powerful spiritual protection and blessings for individuals, families, and dwelling spaces.",
+  icon: PenTool,
+  whatsappMessage:
+    "Hi Dr. Poduval, I would like to order handwritten Vedic Yantras for protection and spiritual purposes.",
+  duration: "7-14 days preparation",
+  price: "₹500 - ₹5,000 (varies by Yantra)",
+  includes: [
+    "Authentic handwritten Vedic Yantras",
+    "Traditional silver Yantra options",
+    "Personalized consecration rituals",
+    "Detailed usage instructions",
+    "Spiritual activation process",
+    "Protective packaging for shipping",
+    "Authenticity certificate",
+    "Maintenance guidelines",
+  ],
+  process: [
+    "Select desired Yantra from available options",
+    "Provide personal details for consecration",
+    "Dr. Poduval handwrites the Yantra with traditional methods",
+    "Sacred mantras and rituals performed",
+    "Yantra energized with spiritual practices",
+    "Quality verification and blessing",
+    "Secure packaging and dispatch",
+    "Installation and usage guidance provided",
+  ],
+  benefits: [
+    "Protection from negative energies",
+    "Spiritual growth and enlightenment",
+    "Prosperity and abundance attraction",
+    "Family and home protection",
+    "Health and wellness enhancement",
+    "Obstacle removal and success",
+    "Devotional spiritual practice",
+    "Global shipping and accessibility",
+  ],
+  suitableFor: [
+    "Spiritual practitioners and devotees",
+    "Individuals seeking protection",
+    "Families wanting home blessings",
+    "Business owners for prosperity",
+    "Health and wellness seekers",
+    "Devotional worship purposes",
+    "Meditation and spiritual practice",
+    "Global clients across nations",
+  ],
+  availableYantras: [
+    "MahaSudarshan Yanthra",
+    "MahaShoolini Yanthra", 
+    "MahaMrithunjaya Yanthra",
+    "Bhadrakali Yanthra",
+    "Vaarahi Yanthra",
+    "Matsya Yanthra",
+    "Kubera Yanthra",
+    "Mahalakshmi Yanthra",
+    "LakshiKubera Yanthra",
+    "Siddhivinaya Yanthra",
+    "Subramanya Yanthra",
+    "Hanuman Yanthra",
+    "ShriRama Swami Yanthra",
+    "Jagannath Yanthra",
+    "Tripurasundari Yanthra",
+    "Bagulamukhi Yanthra",
+    "LokaVashya Yanthra",
+    "Dhana Aakarshana Yanthra",
+    "ShriVenkateshwara Yanthra",
+    "Padmawathi Yanthra",
+    "Dhoomawathi Yanthra",
+    "BhuVaraaha Yanthra",
+    "Dhanwanthari Yanthra",
+    "Vaastu Yanthra",
+    "ShriChakra Yanthra",
+    "NagaPreethi SarpaPreethi Yanthra",
+    "Vimaladevi Yanthra",
+    "SriVidhya Yanthra",
+  ],
+};
+
+export default function HandwrittenVedicYantras() {
+  return <ServiceDetail service={serviceData} />;
+}
