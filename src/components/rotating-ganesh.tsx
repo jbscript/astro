@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function RotatingGanesh() {
   return (
     <div className="flex items-center justify-center ">
-      <div className="relative w-64 h-64">
+      <div className="relative w-80 h-80">
         {/* Rotating Om symbols behind Ganesha */}
         <motion.div
           className="absolute inset-0 flex items-center justify-center"
@@ -83,10 +83,10 @@ export default function RotatingGanesh() {
         {/* Ganesha image - positioned on top with higher z-index */}
         <div className="relative z-10 w-full h-full flex items-center justify-center">
           <img
-            src="/ganesh.png"
+            src="/person.jpeg"
             alt="Lord Ganesha"
-            width={256}
-            height={256}
+            width={400}
+            height={400}
             className="w-full h-full object-contain drop-shadow-2xl"
           />
         </div>

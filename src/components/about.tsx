@@ -55,9 +55,9 @@ export default function About() {
                   <div className="relative z-10 text-center">
                     {/* <img src="/ganesh.png" alt="Ganesha" /> */}
                     <RotatingGanesh />
-                    <p className="text-muted-foreground text-sm ">
+                    {/* <p className="text-muted-foreground text-sm ">
                       Lord Ganesha's Grace
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
