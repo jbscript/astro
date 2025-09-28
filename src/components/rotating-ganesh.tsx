@@ -18,9 +18,9 @@ export default function RotatingGanesh() {
           {[...Array(8)].map((_, i) => (
             <div
               key={i}
-              className="absolute text-orange-200/40 text-4xl font-bold"
+              className="absolute text-orange-200/60 text-6xl font-bold"
               style={{
-                transform: `rotate(${i * 45}deg) translateY(-120px) rotate(-${
+                transform: `rotate(${i * 45}deg) translateY(-180px) rotate(-${
                   i * 45
                 }deg)`,
               }}
@@ -43,9 +43,9 @@ export default function RotatingGanesh() {
           {[...Array(12)].map((_, i) => (
             <div
               key={i}
-              className="absolute text-orange-300/30 text-2xl"
+              className="absolute text-orange-300/50 text-4xl"
               style={{
-                transform: `rotate(${i * 30}deg) translateY(-100px) rotate(-${
+                transform: `rotate(${i * 30}deg) translateY(-160px) rotate(-${
                   i * 30
                 }deg)`,
               }}
@@ -68,9 +68,9 @@ export default function RotatingGanesh() {
           {["गं", "गणपति", "विघ्न", "हर्ता"].map((text, i) => (
             <div
               key={i}
-              className="absolute text-orange-400/25 text-lg font-semibold"
+              className="absolute text-orange-400/45 text-2xl font-semibold"
               style={{
-                transform: `rotate(${i * 90}deg) translateY(-80px) rotate(-${
+                transform: `rotate(${i * 90}deg) translateY(-140px) rotate(-${
                   i * 90
                 }deg)`,
               }}
@@ -85,9 +85,9 @@ export default function RotatingGanesh() {
           <img
             src="/person.jpeg"
             alt="Lord Ganesha"
-            width={400}
-            height={400}
-            className="w-full h-full object-contain drop-shadow-2xl"
+            width={300}
+            height={300}
+            className="w-full h-full object-cover rounded-full drop-shadow-2xl"
           />
         </div>
       </div>
